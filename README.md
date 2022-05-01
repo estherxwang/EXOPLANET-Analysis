@@ -1,4 +1,4 @@
-# EXOPLANET-Analysisrepro
+# EXOPLANET-Analysis repro
 
 This repo contains an R project file for my paper "Continuous Habitable Zones: Discovering the True Alien Earth". In the paper, I discussed, analyzed and visualized the distribution of the data set pulled out from the exoplanet catalogue.
 
