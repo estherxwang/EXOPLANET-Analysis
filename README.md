@@ -1,8 +1,25 @@
-# Data
-The data I used for study and research is collected by NASA, exoplanet database[https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=cumulative]. The data is a survey that aims to analyze the properties of exoplanets. All the data I obtained are not cleaned and needs to be further manipulated.
+# EXOPLANET-Analysisrepro
 
-# Overview of Paper
-In the paper, I discussed, analyzed and visualized the distribution of the data set pulled out from the exoplanet survey. Methodology of the survey was inspected and then conducted an analysis of the best features based on different segmentation of the respondents. Alongside, the weakness of the survey and the next steps are provided in the paper for future improvement of the survey. We attatched the reference at the very end.
+This repo contains an R project file for my paper "Continuous Habitable Zones: Discovering the True Alien Earth". In the paper, I discussed, analyzed and visualized the distribution of the data set pulled out from the exoplanet catalogue.
 
-# File Structure
-In this folder, ‘inputs’ includes all the original files, while ‘outputs’ includes what was created: the final paper and R markdown.
+This repo contains three folders: inputs, outputs, and scripts. Inputs:
+
+    Data: data from the exoplanet database
+
+Outputs:
+
+    Exploratory analysis
+    Paper: R Markdown, a pdf version, and a complete bibliography
+
+Scripts:
+
+    Import data
+    Data simulation
+     
+
+How to generate the paper
+
+    Open EXOPLANET-Analysis.Rproj in RStudio
+    Install libraries using install.packages() if necessary
+    Run 01_Import_Data.R
+    Run Final-Paper.Rmd
